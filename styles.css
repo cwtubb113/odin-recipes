@@ -1,3 +1,134 @@
 * {
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
+
+
+div{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+
+body {
+    background-color: beige;
+}
+
+h1{
+    font-family: 'Papyrus', fantasy;
+    font-size: 200%;
+    color: white;
+}
+
+p {
+    font-size: 100%;
+}
+
+.title{
+    text-align: center;
+    border: 12px solid black;
+    background-color: rgb(0,65,0);
+    box-shadow: inset 0 0 10px #f8a100 ;
+    
+}
+
+.container-one {
+    display: flex;
+}
+
+.container-two {
+    display: flex;
+}
+
+.meatbox {
+    
+    margin: 12px;
+    border-radius: 15px;
+    padding: 0px;
+    width: 50% ;
+    height: 25%;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.meatbox button{
+    padding-top: 38px;
+    padding-bottom: 38px;
+    height: auto;
+    width: 100%;
+    border: 12px solid black;
+    border-radius: 15px;
+    background-color: rgb(0, 65, 0);
+    color: white;
+    box-shadow: inset 0 0 10px #f8a100 ;
+}
+
+.potatobox{
+     
+    margin: 12px;
+    border-radius: 15px;
+    padding: 0px;
+    width: 50% ;
+    height: 25%;
+    box-shadow: 10px 10px 8px #888888; 
+}
+
+.potatobox button {
+    height: auto;
+    width: 100%;
+    border: 12px solid black;
+    border-radius: 15px;
+    background-color: rgb(0, 65, 0);
+    color: white;
+    box-shadow: inset 0 0 10px #f8a100 ;
+}
+
+.cakebox{
+    margin: 12px;
+    border-radius: 15px;
+    padding: 0px;
+    width: 50% ;
+    height: 25%;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.cakebox button{
+    height: auto;
+    width: 100%;
+    border: 12px solid black;
+    border-radius: 15px;
+    background-color: rgb(0, 65, 0);
+    color: white;
+    box-shadow: inset 0 0 10px #f8a100 ;
+}
+
+.broccbox {
+    margin: 12px;
+    border-radius: 15px;
+    padding: 0px;
+    width: 50% ;
+    height: 25%;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.broccbox button{
+    height: auto;
+    width: 100%;
+    border: 12px solid black;
+    border-radius: 15px;
+    background-color: rgb(0, 65, 0);
+    color: white;
+    box-shadow: inset 0 0 10px #f8a100 ;
+}
+
+
+
+img {
+    border-radius: 10px;
+    padding: 0px;
+    width: 75% ;
+    height: auto ;
+    border: 6px solid black;
+    
+}
+
+
