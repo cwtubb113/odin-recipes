@@ -20,17 +20,74 @@ h1{
     color: white;
 }
 
+h2{
+   font-family: 'Papyrus', fantasy;
+    font-size: 200%;
+    color: white; 
+}
+
 p {
     font-size: 100%;
+}
+
+li {
+    padding: 10px;
+    font-weight: bold;
+    margin: 32px;
+    display: inline-flexbox;
+}
+
+.bthp {
+    margin: 5px;
+    width: 240px;
+    height: 80px;
+    margin-left: 12px;
+    border: 8px solid black;
+    border-radius: 15px;
+    background-image: linear-gradient(90deg, rgb(0, 65, 0) 0%, rgb(0,0, 0) 50%, rgb(0,65,0) 100%);
+    color: white;
+    font-size: 150%;
+    font-family: 'Papyrus', fantasy;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 10px 10px 8px #888888, inset 0 0 10px #f8a100 ;
+}
+
+.bthp:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .title{
     text-align: center;
     border: 12px solid black;
+    border-radius: 15px;
+    margin: 2px;
     background-color: rgb(0,65,0);
-    box-shadow: inset 0 0 10px #f8a100 ;
+    box-shadow: 10px 10px 8px #888888, inset 0 0 10px #f8a100 ;
+    
     
 }
+
+.recipe-name{
+    color: black;
+}
+
+.ingredients{
+    column-count: 2; /* or column-count: 2; */
+  -webkit-columns: 2; /* for Safari */
+  -moz-columns: 2; /* for Firefox */
+}
+ 
+.ingredient-one{
+    
+    margin: 12px;
+}
+
+.ingredient-two{
+    
+    margin: 12px;
+}
+
 
 .container-one {
     display: flex;
@@ -40,14 +97,18 @@ p {
     display: flex;
 }
 
+ .details p{
+    font-size: 150%;
+    padding: 10px;
+}
+
 .meatbox {
-    
+    border: none ;
     margin: 12px;
     border-radius: 15px;
-    padding: 0px;
+    padding: 8px;
     width: 50% ;
     height: 25%;
-    box-shadow: 10px 10px 8px #888888;
 }
 
 .meatbox button{
@@ -60,16 +121,24 @@ p {
     background-color: rgb(0, 65, 0);
     color: white;
     box-shadow: inset 0 0 10px #f8a100 ;
+    transition: transform 0.3s ease-in-out;
+}
+
+.meatbox button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .potatobox{
-     
+    border: 12px solid black; 
     margin: 12px;
     border-radius: 15px;
-    padding: 0px;
+    padding: 8px;
     width: 50% ;
     height: 25%;
-    box-shadow: 10px 10px 8px #888888; 
+    box-shadow: 10px 10px 8px #888888;
+    background-color: rgb(0, 65, 0);
+    box-shadow: inset 0 0 10px #f8a100 ; 
 }
 
 .potatobox button {
@@ -85,12 +154,15 @@ p {
 }
 
 .cakebox{
+    border: 12px solid black;
     margin: 12px;
     border-radius: 15px;
-    padding: 0px;
+    padding: 8px;
     width: 50% ;
     height: 25%;
     box-shadow: 10px 10px 8px #888888;
+    background-color: rgb(0, 65, 0);
+    box-shadow: inset 0 0 10px #f8a100 ;
 }
 
 .cakebox button{
@@ -106,12 +178,15 @@ p {
 }
 
 .broccbox {
+    border: 12px solid black ;
     margin: 12px;
     border-radius: 15px;
-    padding: 0px;
+    padding: 8px;
     width: 50% ;
     height: 25%;
     box-shadow: 10px 10px 8px #888888;
+    background-color: rgb(0, 65, 0);
+    box-shadow: inset 0 0 10px #f8a100 ;
 }
 
 .broccbox button{
@@ -136,5 +211,24 @@ img {
     border: 6px solid black;
     
 }
+
+figcaption {
+    color: black;
+}
+
+.descrip {
+    font-size: 150%;
+    font-family: 'Papyrus', fantasy;
+    margin-top: 104px;
+    font-weight: bolder;
+    border: 4px solid rgb(0,65,0);
+    border-radius: 8px;
+    width:max-content;
+    height: 50%;
+    padding: 12px;
+}
+
+
+
 
 
