@@ -73,6 +73,8 @@ p {
 }
 
 .potatobox button {
+    padding-top: 38px ;
+    padding-bottom: 38px ;
     height: auto;
     width: 100%;
     border: 12px solid black;
@@ -92,6 +94,8 @@ p {
 }
 
 .cakebox button{
+    padding-top: 38px ;
+    padding-bottom: 38px ;
     height: auto;
     width: 100%;
     border: 12px solid black;
